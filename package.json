@@ -1,0 +1,23 @@
+{
+  "name": "document-parser-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bull": "^4.16.5",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "pdf2pic": "^3.2.0",
+    "redis": "^5.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

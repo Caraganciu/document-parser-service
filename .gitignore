@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment files
+.env
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Uploaded or generated files
+temp/
+uploads/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Redis dump (if any)
+dump.rdb
+
+# VSCode settings
+.vscode/
+
+# Coverage / test reports
+coverage/
+*.lcov
+
+# Build artifacts
+dist/
+build/
+
+# IDE / Editor
+.idea/
+*.sw?
